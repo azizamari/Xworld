@@ -168,7 +168,7 @@ body {
   transition: var(--mainTransition);
   background: rgb(13,152,255,0.3);
   z-index: 2;
-  /*visibility: hidden;*/
+  visibility: hidden;
 }
 .cart {
   position: fixed;
@@ -181,7 +181,7 @@ body {
   background: var(--mainWhite);
   padding: 1.5rem;
   transition: var(--mainTransition);
-  /* transform: translateX(100%); */
+  transform: translateX(100%);
 }
 .showCart {
   transform: translateX(0);

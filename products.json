@@ -1,0 +1,68 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "NZXT H710i",
+          "price": 169.99,
+          "image": { "fields": { "file": { "url": "./images/product1.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "NZXT H500 Overwatch",
+          "price": 149.99,
+          "image": { "fields": { "file": { "url": "./images/product2.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "NZXT H700i Ninja",
+          "price": 249.99,
+          "image": { "fields": { "file": { "url": "./images/product3.PNG" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "NZXT H510i",
+          "price": 109.00,
+          "image": { "fields": { "file": { "url": "./images/product4.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Aer RGB 2",
+          "price": 27.99,
+          "image": { "fields": { "file": { "url": "./images/product5.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "Kraken G12",
+          "price": 34.99,
+          "image": { "fields": { "file": { "url": "./images/product6.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "RGB & Fan Controller",
+          "price": 24.99,
+          "image": { "fields": { "file": { "url": "./images/product7.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "Kraken Z63",
+          "price": 249.99,
+          "image": { "fields": { "file": { "url": "./images/product8.png" } } }
+        }
+      }
+    ]
+  }
