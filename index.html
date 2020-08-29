@@ -28,13 +28,19 @@
     <header class="hero">
         <div class="banner">
             <h1 class="banner-title">Gadgets Collection</h1>
-            <button class="banner-btn">Shop now</button>
+            <a href="#products">
+                <button class="banner-btn">Shop now</button>
+            </a>
+            <br>
+            <a href="#products">
+                <i class="fas fa-chevron-down fa-2x"></i>
+            </a>
         </div>
     </header>
     <!-- end of hero -->
 
     <!-- products -->
-    <section class="products">
+    <section class="products" id="products">
         <div class="section-title">
             <h2>our products</h2>
         </div>
@@ -43,7 +49,7 @@
             <article class="product">
                 <div class="img-container">
                     <img src="./images/product1.png" alt="product" class="product-img">
-                    <button class="bag-btn" data-id="1">
+                    <button class="bag-btn" data-id="1" onclick="addItem(1); return false">
                         <i class="fas fa-shopping-cart"></i>
                         add to bag
                     </button>
@@ -56,7 +62,7 @@
             <article class="product">
                 <div class="img-container">
                     <img src="./images/product2.png" alt="product" class="product-img">
-                    <button class="bag-btn" data-id="2">
+                    <button class="bag-btn" data-id="2" onclick="addItem(2); return false">
                         <i class="fas fa-shopping-cart"></i>
                         add to bag
                     </button>
@@ -69,7 +75,7 @@
             <article class="product">
                 <div class="img-container">
                     <img src="./images/product3.png" alt="product" class="product-img">
-                    <button class="bag-btn" data-id="3">
+                    <button class="bag-btn" data-id="3" onclick="addItem(3); return false">
                         <i class="fas fa-shopping-cart"></i>
                         add to bag
                     </button>
@@ -82,7 +88,7 @@
             <article class="product">
                 <div class="img-container">
                     <img src="./images/product4.png" alt="product" class="product-img">
-                    <button class="bag-btn" data-id="4">
+                    <button class="bag-btn" data-id="4" onclick="addItem(4); return false">
                         <i class="fas fa-shopping-cart"></i>
                         add to bag
                     </button>
@@ -95,7 +101,7 @@
             <article class="product">
                 <div class="img-container">
                     <img src="./images/product5.png" alt="product" class="product-img">
-                    <button class="bag-btn" data-id="5">
+                    <button class="bag-btn" data-id="5" onclick="addItem(5); return false">
                         <i class="fas fa-shopping-cart"></i>
                         add to bag
                     </button>
@@ -108,7 +114,7 @@
             <article class="product">
                 <div class="img-container">
                     <img src="./images/product6.png" alt="product" class="product-img">
-                    <button class="bag-btn" data-id="6">
+                    <button class="bag-btn" data-id="6" onclick="addItem(6); return false">
                         <i class="fas fa-shopping-cart"></i>
                         add to bag
                     </button>
@@ -121,7 +127,7 @@
             <article class="product">
                 <div class="img-container">
                     <img src="./images/product7.png" alt="product" class="product-img">
-                    <button class="bag-btn" data-id="7">
+                    <button class="bag-btn" data-id="7" onclick="addItem(7); return false">
                         <i class="fas fa-shopping-cart"></i>
                         add to bag
                     </button>
@@ -134,7 +140,7 @@
             <article class="product">
                 <div class="img-container">
                     <img src="./images/product8.png" alt="product" class="product-img">
-                    <button class="bag-btn" data-id="8">
+                    <button class="bag-btn" data-id="8" onclick="addItem(8); return false">
                         <i class="fas fa-shopping-cart"></i>
                         add to bag
                     </button>

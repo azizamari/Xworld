@@ -13,6 +13,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
     color: var(--mainBlack);
     background: var(--mainWhite);
@@ -62,6 +65,7 @@ body {
     justify-content: center;
 }
 .banner {
+  justify-content: center;
     text-align: center;
     background: transparent;
     display: inline-block;
@@ -87,6 +91,9 @@ body {
 .banner-btn:hover {
     background: transparent;
     color: var(--primaryColor);
+}
+.fa-2x{
+  margin-top: 50px;
 }
 .products {
     padding: 4rem 0;
@@ -168,7 +175,7 @@ body {
   transition: var(--mainTransition);
   background: rgb(13,152,255,0.3);
   z-index: 2;
-  visibility: hidden;
+  visibility: visible;
 }
 .cart {
   position: fixed;
