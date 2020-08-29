@@ -175,7 +175,7 @@ body {
   transition: var(--mainTransition);
   background: rgb(13,152,255,0.3);
   z-index: 2;
-  visibility: visible;
+  visibility: hidden;
 }
 .cart {
   position: fixed;
